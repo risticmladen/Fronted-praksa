@@ -20,7 +20,7 @@
 
 header{
     background-color:#6495ED;
-    display: inline;
+    display: inline-block;
     width: 100%;
     margin-left: 0;
 }
@@ -386,4 +386,6 @@ hr{
     margin: 0;
     background-color: black;
     color:white;
+    display: inline-block;
+    clear: both;
 }
