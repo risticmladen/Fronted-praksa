@@ -15,17 +15,21 @@
 
 .container{
     margin: auto;
-    overflow: hidden;
 }
 
-header{
+header {
     background-color:#6495ED;
     display: inline-block;
     width: 100%;
     margin-left: 0;
 }
 
-.header-logo{
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
     background-color: #6495ED;
     color: #fff;
     text-transform: uppercase;
@@ -35,26 +39,26 @@ header{
     float: left;
 }
 
-.menu{
-    display: inline;
+.menu {
+    display: flex;
     text-transform: uppercase;
     font-style: normal;
     font-weight: bolder;
     font-size: 15px;
 }
 
-a{
+a {
     text-decoration: none;
     color: #fff;
 }
 
-.ul-nav{
+.ul-nav {
     list-style-type: none;
     text-align: center;
     padding: 0;
 }
 
-.nav-link-li-header{
+.nav-link-li-header {
     display: inline;
     list-style-type: none;
     text-align: center;
@@ -63,7 +67,7 @@ a{
 
 }
 
-.ul-nav-login{
+.ul-nav-login {
     list-style-type: none;
     text-align: center;
     padding: 0;
@@ -71,7 +75,7 @@ a{
     justify-content: flex-end;
 }
 
-.bttn-register-yellow{
+.bttn-register-yellow {
     text-align: center;
     display: inline;
     color: white;
@@ -82,7 +86,7 @@ a{
 } 
 
 .login{
-    display: inline;
+    display: flex;
     text-transform: none;
     font-style: normal;
     font-size: 15px;
